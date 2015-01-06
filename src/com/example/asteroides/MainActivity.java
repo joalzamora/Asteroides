@@ -38,4 +38,12 @@ public class MainActivity extends ActionBarActivity {
 		Intent i = new Intent ( this, AcercaDe.class );
 		startActivity(i);
 	}
+	
+	public void salir(View view){
+		/** rutina para finalizar la aplicacion **/
+		finish();
+	}
+	
+	
+	
 }
